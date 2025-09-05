@@ -1,13 +1,19 @@
 import java.util.Scanner;
 
 /**
- * Solicita un número entre 1 y 12 y muestra el nombre del mes.
+ *Universidad Autonoma Nacional de Mexico
+ *FACULTAD DE CONTADURÍA Y ADMINISTRACION
+ *INFORMATICA A DISTANCIA
+ *Programa creado por Daniel Hernandez Hernandez el 05/09/2025
+ *Asignatura: Programación orientada a objetos-2430
+ *Profesor: Diana Karen Herrera Carrillo
+ * Solicita un número entre 1 y 12 y muestra el nombre del mes
  */
 public class descubre_el_mes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Leer entrada del usuario
 
-        System.out.print("Ingrese un número entre 1 y 12: "); // Solicitud al usuario
+        System.out.print("Ingrese un numero entre 1 y 12: "); // Solicitud al usuario
         int numeroMes = scanner.nextInt(); // Guardar número ingresado
 
         String nombreMes = "";
@@ -33,7 +39,11 @@ public class descubre_el_mes {
         } else {
             System.out.println("Error: El número debe estar entre 1 y 12."); // Mensaje de error
         }
-        
+
         scanner.close(); // Cerrar el escáner
     }
 }
+
+// Programador: Daniel Hernandez Hernandez
+// Programa para Solicitar un número entre 1 y 12 y muestra el nombre del mes
+// Fecha: 05 de septiembre de 2025
